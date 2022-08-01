@@ -1,0 +1,21 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+\.vs\ExerciciosCSharp\v15\Server\sqlite3
+/bin/Debug/netcoreapp2.1
+/obj/Debug/netcoreapp2.1
+/.vs/ExerciciosCSharp/v15/Server/sqlite3
+/exec_1000/obj
+/exec_1000/bin/Debug/netcoreapp2.1
+/exec_1001/bin/Debug/netcoreapp2.1
+/exec_1001/obj
+/Exec_1002/bin/Debug/netcoreapp2.1
+/Exec_1002/obj
+/Exec_1003/bin/Debug/netcoreapp2.1
+/Exec_1003/obj
+/Exec_1004/bin/Debug/netcoreapp2.1
+/Exec_1004/obj
+/Exec_1005/obj
+/ExerciciosCSharp/bin/Debug/netcoreapp2.1
+/ExerciciosCSharp/obj
