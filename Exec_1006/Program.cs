@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Exec_1005 {
+namespace Exec_1006 {
     class Program {
         static void Main(string[] args) {
             double NOTAPESO1, NOTAPESO2, MEDIA;
