@@ -10,14 +10,24 @@ namespace Exec_1012
     {
         static void Main(string[] args) {
 
-            double A = double.Parse(Console.ReadLine());
-            double B = double.Parse(Console.ReadLine());
-            double C = double.Parse(Console.ReadLine());
+            double a, b, c, triret, circ, trap, quadr, ret, pi = 3.14159;
 
-            double resultado;
-            resultado = A * B * C;
+            string[] numeros = Console.ReadLine().Split();
+             a = double.Parse(numeros[0]);
+             b = double.Parse(numeros[1]);
+             c = double.Parse(numeros[2]);             
 
-            Console.WriteLine("TOTAL = R$ " + resultado.ToString("F2"));
+            triret = a * c / 2;
+            circ = pi * Math.Pow(c, 2);
+            trap = (a + b) * c / 2;
+            quadr = b * b;
+            ret = a * b;
+
+            Console.WriteLine("TRIANGULO: " + triret.ToString("F3"));
+            Console.WriteLine("CIRCULO: " + circ.ToString("F3"));
+            Console.WriteLine("TRAPEZIO: " + trap.ToString("F3"));
+            Console.WriteLine("QUADRADO: " + quadr.ToString("F3"));
+            Console.WriteLine("RETANGULO: " + ret.ToString("F3"));
             Console.ReadKey();
         }
     }
