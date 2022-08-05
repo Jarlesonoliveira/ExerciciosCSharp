@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exec_1022
+namespace Exec_1036
 {
     internal class Program
     {
