@@ -10,8 +10,6 @@ namespace Exec_1042
     {
         static void Main(string[] args) {
 
-
-
             string[] numeros = Console.ReadLine().Split(' ');
 
             int numOne = int.Parse(numeros[0]);
