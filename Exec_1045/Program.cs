@@ -22,10 +22,12 @@ namespace Exec_1045
             if (Math.Max(numOne, numTwo) > numThree) {
 
                 A = Math.Max(numOne, numTwo);
+
                 if (A > Math.Max(numTwo, numThree)) {
 
                     B = Math.Max(numTwo, numThree);
                     C = Math.Min(numTwo, numThree);
+
                 } else {
 
                     B = Math.Max(numOne, numThree);
