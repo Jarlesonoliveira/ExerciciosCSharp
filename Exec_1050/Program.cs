@@ -22,7 +22,7 @@ namespace Exec_1050
 
             } else if (ddd == 11) {
 
-                Console.WriteLine("São Paulo");
+                Console.WriteLine("Sao Paulo");
 
             } else if (ddd == 21) {
 
@@ -46,7 +46,7 @@ namespace Exec_1050
 
             }else {
 
-                Console.WriteLine("DDD não cadastrado");
+                Console.WriteLine("DDD nao cadastrado");
 
             }
         }
