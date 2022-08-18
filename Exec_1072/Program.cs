@@ -28,8 +28,9 @@ namespace Exec_1072
                 }
             }
 
-            Console.WriteLine(contIn + " em");
-            Console.WriteLine(contOut + " fora");
+            Console.WriteLine(contIn + " in");
+            Console.WriteLine(contOut + " out");
+
         }
     }
 }
