@@ -12,14 +12,10 @@ namespace Exec_1094
         static void Main(string[] args) {
 
             int N = int.Parse(Console.ReadLine());
-
-            int rato = 0;
-            int sapo = 0;
-            int coelho = 0;
-
+            int rato = 0, sapo = 0, coelho = 0;
             int total = 0;
 
-            for (int i = 0; i < N; i++) {
+            for(int i = 0; i < N; i++) {
                 string[] vet = Console.ReadLine().Split(' ');
 
                 int Quantia = int.Parse(vet[0]);
@@ -27,11 +23,14 @@ namespace Exec_1094
 
                 total += Quantia;
 
-                if (Tipo == 'R') {
+                if(Tipo == 'R') {
+
                     rato += Quantia;
-                } else if (Tipo == 'S') {
+                }else if(Tipo == 'S') {
+
                     sapo += Quantia;
                 } else {
+
                     coelho += Quantia;
                 }
             }
